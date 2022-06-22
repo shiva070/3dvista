@@ -3,19 +3,18 @@
 ## Action
 
 ### URL
-PopupWebFrameBehaviour_930CBE35_8095_85DD_41C7_61BD13D3D37D.url = https://www.computerhope.com/
-PopupWebFrameBehaviour_92CA261C_80BF_85CC_41D1_CCF107B2AE7E.url = https://www.computerhope.com/
+PopupWebFrameBehaviour_931D8017_81AE_BDDD_41DB_1763CF88FE17.url = https://www.computerhope.com/
 
 ## E-Learning
 
 ### Answer
-questionOption_7C9E0763_6DAA_247F_41D5_3989DCED2851.text = 18
-questionOption_6332963C_6DAA_27C8_41C4_1C607D1E5BBD.text = 19
-questionOption_7CB3740B_6DAA_7BCF_41CA_1317A92D8A19.text = 20
-questionOption_7CFC17F3_6DAA_245F_41D1_B2DFDAFE67D6.text = 21
+questionOption_9DBC88EE_816D_8E4C_41E0_3D52BDD8D97B.text = 18
+questionOption_9DBCA8ED_816D_8E4C_41D5_3667E10B5897.text = 19
+questionOption_9DBC98EE_816D_8E4C_41D6_87A040C032D7.text = 20
+questionOption_9DBC78EE_816D_8E4C_41DA_50E138958F6F.text = 21
 
 ### Question
-question_63370A60_6DA6_6C79_41BE_ADCFB0F55A7A.title = Whats 9+10?
+question_9DBD08ED_816D_8E4C_41E0_B68DC794F85A.title = Whats 9+10?
 
 ### Question Screen
 quizQuestion_7E85E074_6DBA_1C59_41D1_BCF7D5835D2E.ok = OK
@@ -43,18 +42,18 @@ quizTimeout_7E84C074_6DBA_1C59_41C3_DA6BABFA6774.score = View Score
 ## Hotspot
 
 ### URL
-overlay_929BC7AF_80AB_82CD_41DE_4DFA22C7981C.url = https://www.computerhope.com/
+overlay_9CA86E1C_816E_85CC_41C1_A5E307EA09BA.url = https://www.computerhope.com/
 
 ## Media
 
 ### Title
-panorama_6088F3D8_6C66_FC49_4198_E2C8A6D40EDA.label = final
+panorama_9C1A1E2B_8196_85F5_41D5_DDC2F16BD534.label = examplepano
 panorama_6812E873_74E6_2C5F_419C_12AFD0980581.label = output2
-panorama_8BF32561_8095_8675_41CD_1C545632583F.label = output3
+panorama_9C32D48E_8176_86CC_41CE_A591755E2C6C.label = output3
 
 ## Tour
 
 ### Description
 
 ### Title
-tour.name = Untitled 3
+tour.name = Virtual Tour

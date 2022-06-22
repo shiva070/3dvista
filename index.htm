@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>3D Vista test</title>
+    <title>Virtual Tour</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" id="metaViewport" content="user-scalable=no, initial-scale=1, width=device-width, viewport-fit=cover" data-tdv-general-scale="0.5"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <script src="lib/tdvplayer.js?v=1655721876269"></script>
-    <link rel="preload" href="locale/en.txt?v=1655721876269" as="fetch" crossorigin="anonymous"/>
-	<link rel="preload" href="script.js?v=1655721876269" as="script"/>
-	<link rel="preload" href="media/panorama_6088F3D8_6C66_FC49_4198_E2C8A6D40EDA_0/r/1/0_0.jpg?v=1655721876269" as="image"/>
-	<link rel="preload" href="media/panorama_6088F3D8_6C66_FC49_4198_E2C8A6D40EDA_0/l/1/0_0.jpg?v=1655721876269" as="image"/>
-	<link rel="preload" href="media/panorama_6088F3D8_6C66_FC49_4198_E2C8A6D40EDA_0/u/1/0_0.jpg?v=1655721876269" as="image"/>
-	<link rel="preload" href="media/panorama_6088F3D8_6C66_FC49_4198_E2C8A6D40EDA_0/d/1/0_0.jpg?v=1655721876269" as="image"/>
-	<link rel="preload" href="media/panorama_6088F3D8_6C66_FC49_4198_E2C8A6D40EDA_0/f/1/0_0.jpg?v=1655721876269" as="image"/>
-	<link rel="preload" href="media/panorama_6088F3D8_6C66_FC49_4198_E2C8A6D40EDA_0/b/1/0_0.jpg?v=1655721876269" as="image"/>
+    <script src="lib/tdvplayer.js?v=1655897158590"></script>
+    <link rel="preload" href="locale/en.txt?v=1655897158590" as="fetch" crossorigin="anonymous"/>
+	<link rel="preload" href="script.js?v=1655897158590" as="script"/>
+	<link rel="preload" href="media/panorama_6812E873_74E6_2C5F_419C_12AFD0980581_0/l/2/0_0.jpg?v=1655897158590" as="image"/>
+	<link rel="preload" href="media/panorama_6812E873_74E6_2C5F_419C_12AFD0980581_0/r/2/0_0.jpg?v=1655897158590" as="image"/>
+	<link rel="preload" href="media/panorama_6812E873_74E6_2C5F_419C_12AFD0980581_0/f/2/0_0.jpg?v=1655897158590" as="image"/>
+	<link rel="preload" href="media/panorama_6812E873_74E6_2C5F_419C_12AFD0980581_0/b/2/0_0.jpg?v=1655897158590" as="image"/>
+	<link rel="preload" href="media/panorama_6812E873_74E6_2C5F_419C_12AFD0980581_1/l/2/0_0.jpg?v=1655897158590" as="image"/>
+	<link rel="preload" href="media/panorama_6812E873_74E6_2C5F_419C_12AFD0980581_1/r/2/0_0.jpg?v=1655897158590" as="image"/>
+	<link rel="preload" href="media/panorama_6812E873_74E6_2C5F_419C_12AFD0980581_1/f/2/0_0.jpg?v=1655897158590" as="image"/>
+	<link rel="preload" href="media/panorama_6812E873_74E6_2C5F_419C_12AFD0980581_1/b/2/0_0.jpg?v=1655897158590" as="image"/>
 	<script src="tdvquiz.js" type="text/javascript"></script>
 	<meta name="description" content="Virtual Tour"/>
 	<meta name="theme-color" content="#FFFFFF"/>
-    <script src="script.js?v=1655721876269"></script>
+    <script src="script.js?v=1655897158590"></script>
     <script type="text/javascript">
         var tour;
-        var devicesUrl = {"general":"script_general.js?v=1655721876269"};
+        var devicesUrl = {"general":"script_general.js?v=1655897158590"};
 
         (function()
         {
@@ -64,9 +66,9 @@
 
             var settings = new TDV.PlayerSettings();
             settings.set(TDV.PlayerSettings.CONTAINER, document.getElementById('viewer'));
-            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1655721876269');
-            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1655721876269');
-            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1655721876269');
+            settings.set(TDV.PlayerSettings.WEBVR_POLYFILL_URL, 'lib/WebVRPolyfill.js?v=1655897158590');
+            settings.set(TDV.PlayerSettings.HLS_URL, 'lib/Hls.js?v=1655897158590');
+            settings.set(TDV.PlayerSettings.QUERY_STRING_PARAMETERS, 'v=1655897158590');
 
             tour = new TDV.Tour(settings, devicesUrl);
             tour.bind(TDV.Tour.EVENT_TOUR_INITIALIZED, onVirtualTourInit);
@@ -335,7 +337,7 @@
     
 </head>
 <body>
-    <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; left: 0%; top: 50%; width: 100.00%; height: 10.00%" ><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:1.6666666666666663vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-size:1.67vmin;font-family:Arial, Helvetica, sans-serif;">Loading virtual tour. Please wait...</SPAN></DIV><DIV STYLE="text-align:center;font-size:1.6666666666666663vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-size:1.67vmin;font-family:Arial, Helvetica, sans-serif;">created with the trial of 3DVista VT Pro</SPAN></DIV><DIV STYLE="text-align:center;font-size:2.384500745156483vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:2.38vmin;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#f3a22e;"><A TARGET="_blank" HREF="https://www.3dvista.com" STYLE="text-decoration:none; color:inherit;"><SPAN STYLE="color:#999999;font-size:1.48vmin;"><U>www.3DVista.com</U></SPAN></A></SPAN></SPAN></DIV></div></div></div>
+    <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; left: 0%; top: 50%; width: 100.00%; height: 10.00%" ><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:1.666666666666666vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-size:1.67vmin;font-family:Arial, Helvetica, sans-serif;">Loading virtual tour. Please wait...</SPAN></DIV><DIV STYLE="text-align:center;font-size:1.666666666666666vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-size:1.67vmin;font-family:Arial, Helvetica, sans-serif;">created with the trial of 3DVista VT Pro</SPAN></DIV><DIV STYLE="text-align:center;font-size:2.384500745156483vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#000000;font-size:2.38vmin;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#f3a22e;"><A TARGET="_blank" HREF="https://www.3dvista.com" STYLE="text-decoration:none; color:inherit;"><SPAN STYLE="color:#999999;font-size:1.48vmin;"><U>www.3DVista.com</U></SPAN></A></SPAN></SPAN></DIV></div></div></div>
     <div id="viewer" class="fill-viewport"></div>
 </body>
 </html>
