@@ -12,9 +12,9 @@
     </metadata>
     <organizations default="tdv">
         <organization identifier="tdv">
-            <title>Untitled 3</title>
+            <title>Virtual Tour</title>
             <item identifier="i1" identifierref="r1" isvisible="true">
-                <title>Untitled 3</title>
+                <title>Virtual Tour</title>
             </item>
         </organization>
     </organizations>
